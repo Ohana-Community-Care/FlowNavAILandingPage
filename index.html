@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FlowNav.AI – The First AI-Enabled Autonomous Business Orchestration Platform</title>
+  <meta name="description" content="FlowNav.AI is the first AI-enabled Autonomous Business Orchestration Platform. Built by a founder with deep healthcare roots, FlowNav.AI delivers category-defining value for modern enterprises.">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #f15a29;
+      --secondary: #fbb040;
+      --accent-green: #00bfae;
+      --accent-blue: #0077c8;
+      --accent-purple: #a259e6;
+      --bg: #fff8f2;
+      --text: #222;
+      --muted: #666;
+    }
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(90deg, var(--primary) 0%, var(--accent-blue) 100%);
+      color: #fff;
+      padding: 60px 0 40px 0;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.8rem;
+      margin: 0 0 18px 0;
+      font-weight: 700;
+      letter-spacing: -1px;
+    }
+    header p {
+      font-size: 1.3rem;
+      margin: 0 0 30px 0;
+      color: #fff;
+      font-weight: 400;
+    }
+    .cta-btn {
+      background: var(--accent-green);
+      color: #fff;
+      border: none;
+      border-radius: 30px;
+      padding: 18px 44px;
+      font-size: 1.1rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+      cursor: pointer;
+      transition: background 0.2s;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+      margin-top: 10px;
+    }
+    .cta-btn:hover {
+      background: var(--accent-purple);
+    }
+    .section {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 60px 24px 40px 24px;
+    }
+    .section-title {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 18px;
+      letter-spacing: -0.5px;
+    }
+    .founder-story {
+      background: var(--accent-blue);
+      color: #fff;
+      border-radius: 18px;
+      padding: 36px 28px;
+      margin-bottom: 40px;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.04);
+    }
+    .founder-story h2 {
+      color: var(--accent-green);
+      margin-top: 0;
+    }
+    .value-drivers {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 32px;
+      margin-bottom: 40px;
+    }
+    .value-driver {
+      flex: 1 1 260px;
+      background: #fff;
+      border-radius: 14px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+      padding: 28px 22px;
+      border-left: 6px solid var(--accent-purple);
+      min-width: 220px;
+    }
+    .value-driver h3 {
+      margin-top: 0;
+      color: var(--accent-blue);
+      font-size: 1.2rem;
+      font-weight: 700;
+    }
+    .diagram {
+      text-align: center;
+      margin: 40px 0;
+    }
+    .diagram img {
+      max-width: 340px;
+      width: 100%;
+      border-radius: 16px;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+      border: 4px solid var(--accent-green);
+    }
+    .how-it-works {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 32px;
+      margin-bottom: 40px;
+    }
+    .how-step {
+      flex: 1 1 260px;
+      background: var(--accent-purple);
+      color: #fff;
+      border-radius: 14px;
+      padding: 24px 18px;
+      min-width: 220px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+    }
+    .how-step h4 {
+      margin-top: 0;
+      color: var(--accent-green);
+      font-size: 1.1rem;
+      font-weight: 700;
+    }
+    .use-cases {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 32px;
+      margin-bottom: 40px;
+    }
+    .use-case {
+      flex: 1 1 260px;
+      background: #fff;
+      border-radius: 14px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+      padding: 24px 18px;
+      min-width: 220px;
+      border-left: 6px solid var(--accent-blue);
+    }
+    .use-case h4 {
+      margin-top: 0;
+      color: var(--primary);
+      font-size: 1.1rem;
+      font-weight: 700;
+    }
+    .footer {
+      background: var(--primary);
+      color: #fff;
+      text-align: center;
+      padding: 36px 0 18px 0;
+      font-size: 1rem;
+      margin-top: 40px;
+    }
+    @media (max-width: 900px) {
+      .value-drivers, .how-it-works, .use-cases {
+        flex-direction: column;
+        gap: 18px;
+      }
+      .section {
+        padding: 40px 8px 24px 8px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>FlowNav.AI</h1>
+    <p>The First AI-Enabled Autonomous Business Orchestration Platform.<br>
+      <span style="color: var(--accent-green); font-weight:700;">Category-defining. Effortless. Unmatched ROI.</span>
+    </p>
+    <button class="cta-btn">Get the Executive Brief</button>
+  </header>
+
+  <div class="section founder-story">
+    <h2>Built by a Local, for the Future of Business</h2>
+    <p>
+      Born and raised on the beaches of Northeast Florida, I’ve spent 30+ years in healthcare—pitching to C-suites, building teams, and running my own care company. My family’s roots run deep here. FlowNav.AI is my answer to the friction, waste, and missed potential I’ve seen in every corner of the industry. This is more than software—it’s a movement to orchestrate better business, starting in my own backyard.
+    </p>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Why FlowNav.AI?</div>
+    <div class="value-drivers">
+      <div class="value-driver">
+        <h3>Cut Onboarding Time in Half</h3>
+        <p>AI-guided journeys get new hires productive faster, with zero paperwork bottlenecks or missed steps.</p>
+      </div>
+      <div class="value-driver">
+        <h3>Eliminate Compliance Risk</h3>
+        <p>Automated tracking, reminders, and audit-ready evidence—no more manual errors or regulatory headaches.</p>
+      </div>
+      <div class="value-driver">
+        <h3>Unlock Workforce Potential</h3>
+        <p>Personalized, adaptive training and support for every role, every location, every day.</p>
+      </div>
+      <div class="value-driver">
+        <h3>Real-Time Insights, Always</h3>
+        <p>Dashboards and AI-powered analytics surface trends, risks, and opportunities before they become problems.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section diagram">
+    <img src="ConceptDiagram_FINAL.png" alt="FlowNav.AI Core Modules Diagram">
+    <div style="margin-top: 12px; color: var(--muted); font-size: 1rem;">
+      <em>Every module, orchestrated by AI. Every workflow, seamless.</em>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">How It Works</div>
+    <div class="how-it-works">
+      <div class="how-step">
+        <h4>1. AI Orchestration</h4>
+        <p>Every workflow, journey, and compliance step is dynamically guided by FlowNav’s AI engine—context-aware, adaptive, and always on.</p>
+      </div>
+      <div class="how-step">
+        <h4>2. Adaptive Journeys</h4>
+        <p>Personalized onboarding, training, and enablement for every user—no matter their role, location, or experience level.</p>
+      </div>
+      <div class="how-step">
+        <h4>3. Real-Time Insights</h4>
+        <p>Dashboards and analytics keep leaders ahead of the curve, with instant visibility into every metric that matters.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Flagship Use Cases</div>
+    <div class="use-cases">
+      <div class="use-case">
+        <h4>Nurse Onboarding</h4>
+        <p>From first day to full productivity—AI ensures every nurse is ready, compliant, and confident, faster than ever before.</p>
+      </div>
+      <div class="use-case">
+        <h4>Compliance Automation</h4>
+        <p>Never miss a deadline or audit again. FlowNav.AI automates tracking, reminders, and reporting for every credential and policy.</p>
+      </div>
+      <div class="use-case">
+        <h4>Employee Success Hub</h4>
+        <p>Ongoing training, certifications, and performance checks—personalized and orchestrated for every employee’s growth.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Ready to Orchestrate the Future?</div>
+    <p>
+      FlowNav.AI isn’t just another platform—it’s a new category.  
+      <br><br>
+      <strong>Built by a founder who knows healthcare, business, and this community inside and out.</strong>
+      <br><br>
+      <button class="cta-btn">Get the Executive Brief</button>
+    </p>
+  </div>
+
+  <div class="footer">
+    &copy; 2025 FlowNav.AI &mdash; Built in Northeast Florida. All rights reserved.
+  </div>
+</body>
+</html>
